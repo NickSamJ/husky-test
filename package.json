@@ -4,7 +4,8 @@
   "description": "Test husky",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/NickSamJ/husky-test/issues"
   },
-  "homepage": "https://github.com/NickSamJ/husky-test#readme"
+  "homepage": "https://github.com/NickSamJ/husky-test#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "mocha": "^10.0.0"
+  }
 }
